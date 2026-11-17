@@ -55,24 +55,28 @@ No tests were removed or weakened.
 ## Repository structure
 
 ```
-LLM-application-engineering-/
+murshid-llm-application-engineering/
 ├── README.md
 ├── notebooks/
 │   └── murshid_Renad.ipynb        # The cumulative project notebook (Days 1–4, cells 1–14)
-├── results/
-│   ├── core/                      # Outputs from my own run of the project notebook
-│   │   ├── baseline_results.json  # Day 1
-│   │   ├── day2_results.json      # Day 2
-│   │   ├── day3_results.json      # Day 3: 10 golden cases
-│   │   ├── day4_results.json      # Day 4: cache experiment
-│   │   ├── final_report.json      # Tests, cache, hypothetical cost, limits
-│   │   ├── metrics.json           # Privacy-safe per-request metrics
-│   │   └── synthetic_data.json    # The synthetic directory and records
-│   ├── day1/                      # Day 1 homework output
-│   └── day2/                      # Day 2 homework output
-└── homework/                      # One separate notebook per optional homework
-    ├── day1_real_model_renad.ipynb
-    └── day2_tools_renad.ipynb
+├── homework/                      # One separate notebook per optional homework
+│   ├── day1_real_model_renad.ipynb
+│   ├── day2_tools_norah.ipynb
+│   ├── day3_errors.ipynb
+│   └── day4_evaluation.ipynb
+└── results/
+    ├── core/                      # Outputs from the project notebook
+    │   ├── baseline_results.json  # Day 1
+    │   ├── day2_results.json      # Day 2
+    │   ├── day3_results.json      # Day 3: 10 golden cases
+    │   ├── day4_results.json      # Day 4: cache experiment
+    │   ├── final_report.json      # Tests, cache, hypothetical cost, limits
+    │   ├── metrics.json           # Privacy-safe per-request metrics
+    │   └── synthetic_data.json    # The synthetic directory and records
+    ├── day 1/                     # Day 1 homework output
+    ├── day2/                      # Day 2 homework output
+    ├── day3/                      # Day 3 homework output
+    └── day4/                      # Day 4 homework output
 ```
 
 ## Quick start
